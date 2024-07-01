@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.e0a78ef3.css",
+    "main.js": "/E-commerce/static/js/main.cbd6afae.js",
+    "static/media/comment2.jpg": "/E-commerce/static/media/comment2.100060675389cca285a6.jpg",
+    "static/media/comment4.jpg": "/E-commerce/static/media/comment4.7a2f12df7485b65d348f.jpg",
+    "static/media/remixicon.svg?t=1590207869815": "/E-commerce/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/comment1.jpg": "/E-commerce/static/media/comment1.04e04b1145e65f435a5f.jpg",
+    "static/media/fa-solid-900.ttf": "/E-commerce/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/remixicon.eot?t=1590207869815": "/E-commerce/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/E-commerce/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/hero3.png": "/E-commerce/static/media/hero3.f171f124df4d16b65029.png",
+    "static/media/hero1.png": "/E-commerce/static/media/hero1.520f3174bffb33116128.png",
+    "static/media/hero2.png": "/E-commerce/static/media/hero2.5df962e820edb4d3a124.png",
+    "static/media/fa-brands-400.ttf": "/E-commerce/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/E-commerce/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/fa-solid-900.woff2": "/E-commerce/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/remixicon.woff2?t=1590207869815": "/E-commerce/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/fa-brands-400.woff2": "/E-commerce/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/E-commerce/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/login2.jpg": "/E-commerce/static/media/login2.70dd442c5f97f05c9be7.jpg",
+    "static/media/s1.jpg": "/E-commerce/static/media/s1.873542c6e71705d58e45.jpg",
+    "static/media/s2.jpg": "/E-commerce/static/media/s2.973330e73abbae636f8b.jpg",
+    "static/media/p1.jpg": "/E-commerce/static/media/p1.475d63a5679738d121e1.jpg",
+    "static/media/p3.jpg": "/E-commerce/static/media/p3.0a54a81efec68f1cb127.jpg",
+    "static/media/login1.jpg": "/E-commerce/static/media/login1.7ea4646cd56b5447c1ad.jpg",
+    "static/media/fa-regular-400.woff2": "/E-commerce/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/p2.jpg": "/E-commerce/static/media/p2.ddc4e349bdda58a0913b.jpg",
+    "static/media/fa-v4compatibility.ttf": "/E-commerce/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/E-commerce/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/E-commerce/index.html",
+    "main.e0a78ef3.css.map": "/E-commerce/static/css/main.e0a78ef3.css.map",
+    "main.cbd6afae.js.map": "/E-commerce/static/js/main.cbd6afae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0a78ef3.css",
+    "static/js/main.cbd6afae.js"
+  ]
+}
