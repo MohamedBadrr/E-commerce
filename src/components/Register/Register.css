@@ -1,3 +1,9 @@
+.register{
+  height: 70.5vh !important;
+}
+.imgRegister{
+  height: 70.5vh
+}
 @media (min-width: 300px) and (max-width: 575.98px) {
   .register {
     padding-top: 70px;

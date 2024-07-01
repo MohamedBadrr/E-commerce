@@ -37,7 +37,7 @@ const CartShopping = () => {
                 <h4>{myItems.length} items</h4>
               </div>{" "}
               <hr />
-              <table>
+              <table className="mb-5">
                 <thead>
                   <tr>
                     <th className="head-title">Product Details</th>

@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import "./CheckOut.css";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  decreaseItem,
-  deleteItem,
-  increseItem,
-} from "../../features/cart/cartSlice";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
+import { clearCart } from "../../features/cart/cartSlice";
 
 const CheckOust = () => {
   const navigate = useNavigate();
@@ -20,7 +16,14 @@ const CheckOust = () => {
   const [city, setCity] = useState("");
   const [number, setNumber] = useState("");
   const [showAlert, setShow] = useState(false);
+  const dispatch = useDispatch();
 
+const getTotalCost = ()=>{
+  myItems.map((item)=>{
+    totalcost+=item.price;
+  })
+  return totalcost;
+}
   return (
     <>
       <section className="all-carts">
@@ -33,7 +36,15 @@ const CheckOust = () => {
               <form
                 className="formCheck"
                 onSubmit={(e) => {
+                  e.preventDefault();
+                  dispatch(clearCart());
                   setShow(true);
+                  SetFirstName("");
+                  setLastName("");
+                  setAddress("");
+                  setNumber("");
+                  setCity("");
+                  setCountry("");
                 }}
               >
                 <h1 className="base-color fw-bold mb-3">Checkout Form</h1>
@@ -154,7 +165,7 @@ const CheckOust = () => {
               <hr />
               <div className="oreders-number">
                 <div>{myItems.length} ITEAMS</div>
-                <div>{totalcost} $</div>
+                <div>{getTotalCost()} $</div>
               </div>
               <hr />
               <h4 className="shipping-title">Shipping</h4>
