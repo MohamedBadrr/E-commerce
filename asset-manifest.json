@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-commerce/static/css/main.7c805a3d.css",
-    "main.js": "/E-commerce/static/js/main.0cc41eaf.js",
+    "main.css": "/E-commerce/static/css/main.8be733f2.css",
+    "main.js": "/E-commerce/static/js/main.31c99337.js",
     "static/media/comment2.jpg": "/E-commerce/static/media/comment2.100060675389cca285a6.jpg",
     "static/media/comment4.jpg": "/E-commerce/static/media/comment4.7a2f12df7485b65d348f.jpg",
     "static/media/remixicon.svg?t=1590207869815": "/E-commerce/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -29,11 +29,11 @@
     "static/media/fa-v4compatibility.ttf": "/E-commerce/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/E-commerce/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/E-commerce/index.html",
-    "main.7c805a3d.css.map": "/E-commerce/static/css/main.7c805a3d.css.map",
-    "main.0cc41eaf.js.map": "/E-commerce/static/js/main.0cc41eaf.js.map"
+    "main.8be733f2.css.map": "/E-commerce/static/css/main.8be733f2.css.map",
+    "main.31c99337.js.map": "/E-commerce/static/js/main.31c99337.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c805a3d.css",
-    "static/js/main.0cc41eaf.js"
+    "static/css/main.8be733f2.css",
+    "static/js/main.31c99337.js"
   ]
 }
