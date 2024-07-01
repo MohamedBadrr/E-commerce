@@ -62,7 +62,7 @@ const Hero = () => {
         <div className="traingle-hero"></div>
         <div className="container">
           <div className="row hero-imag-text">
-            <OwlCarousel className="owl-theme carsoul-itemm" {...options}>
+            <OwlCarousel className="owl-theme carsoul-itemm large-screens" {...options}>
               {ImageList.map((item) => (
                 <div key={item.id} className="carsoul-itemm">
                   <div className="col-md-6">
@@ -85,6 +85,26 @@ const Hero = () => {
                 </div>
               ))}
             </OwlCarousel>
+
+            <div  className="carsoul-itemm mobile">
+                  <div className="col-md-6">
+                    <div className="text-hero">
+                      <h1>70% off on All Products Sale</h1>
+                      <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a
+                        className="default-btn shop-now text-decoration-none"
+                        href="#PRODUCTS"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                  <div className=" col-md-5">
+                    <div className="img-hero">
+                      <img src={Image2} alt="" className="w-100" />
+                    </div>
+                  </div>
+            </div>
           </div>
         </div>
       </div>

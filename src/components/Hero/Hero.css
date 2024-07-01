@@ -59,6 +59,12 @@
   flex-direction: row !important;
   animation: fadeInUp 1.9s ease;
 }
+.mobile{
+  display: none !important;
+}
+.large-screens{
+  display: flex !important;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 100px) and (max-width: 575.98px) {
@@ -89,6 +95,13 @@
     align-items: center !important;
     justify-content: center !important;
     flex-direction: column-reverse !important;
+  }
+  .mobile{
+    display: flex !important;
+    margin-top: -15px !important;
+  }
+  .large-screens{
+    display: none !important;
   }
 }
 
@@ -124,6 +137,13 @@
     align-items: center !important;
     justify-content: center !important;
     flex-direction: column-reverse !important;
+  }
+  .mobile{
+    display: flex !important;
+    margin-top: -15px !important;
+  }
+  .large-screens{
+    display: none !important;
   }
 }
 
