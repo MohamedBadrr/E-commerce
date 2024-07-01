@@ -1,0 +1,19 @@
+.footer {
+  height: fit-content;
+  background-color: var(--base-color) !important;
+  text-align: center;
+  padding: 5px 0px;
+  padding-top: 10px;
+  color: white;
+}
+.footer .icons i {
+  margin: 8px 5px;
+  color: rgb(137, 135, 135);
+  transition: 0.5s;
+}
+.footer .icons i:hover {
+  color: #efefef;
+}
+.footer .credited {
+  margin: 3px 0px;
+}

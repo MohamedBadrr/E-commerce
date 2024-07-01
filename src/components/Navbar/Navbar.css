@@ -1,0 +1,149 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.navbar-brand {
+  font-size: 28px;
+  color: var(--base-color);
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.login-btn {
+  border: 1px solid var(--base-color);
+  color: var(--base-color);
+  padding: 6px 12px 6px 12px;
+  margin: 5px 5px;
+}
+.login-btn:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: var(--base-color);
+}
+.create-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: var(--base-color);
+  padding: 7px 12px 7px 12px;
+  margin: 5px 5px;
+}
+.create-btn:hover {
+  border: 1px solid var(--base-color);
+  color: var(--base-color);
+  background-color: white;
+}
+.nav-buttons i {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 29px;
+  color: var(--base-color);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.nav-buttons i:hover {
+  color: gray;
+}
+
+.ul-navbar {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  width: 35% !important;
+}
+.nav-link {
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.5s all;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  color: black;
+}
+.nav-link:hover {
+  color: var(--second-color);
+  border-radius: 20px;
+  border: 1bx solid black !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  font-size: 30px;
+  color: var(--base-color);
+}
+.shopping-cart {
+  position: relative;
+}
+.heart-cart {
+  position: relative;
+}
+.number-shopping {
+  background-color: red;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+.heart-shopping {
+  background-color: red;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 36px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ul-navbar {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    width: 45% !important;
+  }
+}
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.user-icon {
+  cursor: pointer;
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  right: 0;
+  background-color: #287ab0;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid black;
+  margin-top: 16px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}

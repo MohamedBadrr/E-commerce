@@ -1,0 +1,15 @@
+@media (min-width: 300px) and (max-width: 575.98px) {
+  .register {
+    padding-top: 70px;
+    height: fit-content !important;
+    padding-bottom: 50px !important;
+  }
+  .register-inputs {
+    margin-bottom: 220px !important;
+  }
+  .imgRegister {
+    padding: 35px 30px !important;
+    height: 250px !important;
+    margin-top: -40px !important;
+  }
+}

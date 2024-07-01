@@ -1,0 +1,213 @@
+.Product-container {
+  display: flex;
+}
+.Product-details-all {
+  padding-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: fadeInUp 2.5s ease;
+  min-height: 100vh;
+}
+
+.image-product {
+  border: 1px solid var(--base-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 10px rgb(175, 172, 172);
+  height: 550px;
+  width: 500px;
+}
+.rating-product i {
+  color: var(--base-color);
+}
+.rating-product span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.descriptionProduct {
+  font-size: 17.2px;
+}
+.product-category {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 100px) and (max-width: 575.98px) {
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-category {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .image-product {
+    margin: auto !important;
+    border: 1px solid var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px rgb(175, 172, 172);
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+    height: 450px;
+    width: 300px;
+  }
+  .image-product img {
+    width: 100%;
+  }
+  .Product-details-all {
+    padding-top: 100px;
+  }
+  .text-product {
+    padding: 15px !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-product {
+    width: 80%;
+    margin: auto !important;
+    border: 1px solid var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px rgb(175, 172, 172);
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+  }
+  .image-product img {
+    width: 100%;
+  }
+  .Product-details-all {
+    padding-top: 100px;
+  }
+  .text-product {
+    width: 88%;
+    margin: auto;
+  }
+  .text-product {
+    padding: 15px !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-product {
+    width: 50%;
+    margin: auto !important;
+    border: 1px solid var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px rgb(175, 172, 172);
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+  }
+  .image-product img {
+    width: 100%;
+  }
+  .Product-details-all {
+    padding-top: 100px;
+  }
+  .text-product {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .details-add-button {
+    margin-bottom: 15px;
+  }
+  .text-product {
+    padding: 15px !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-product {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .image-product {
+    width: 50%;
+    margin: auto !important;
+    border: 1px solid var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px rgb(175, 172, 172);
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+  }
+  .image-product img {
+    width: 100%;
+  }
+  .Product-details-all {
+    padding-top: 100px;
+  }
+  .text-product {
+    margin-top: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .details-add-button {
+    margin-bottom: 15px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .image-product {
+    width: 50%;
+    margin: auto !important;
+    border: 1px solid var(--base-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px rgb(175, 172, 172);
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+  }
+  .image-product img {
+    width: 100%;
+  }
+  .Product-details-all {
+    padding-top: 100px;
+  }
+  .text-product {
+    margin-top: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .details-add-button {
+    margin-bottom: 15px;
+  }
+}

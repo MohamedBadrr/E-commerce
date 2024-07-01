@@ -1,0 +1,76 @@
+:root {
+  --base-color: rgb(28, 87, 129);
+  --second-color: rgb(63, 143, 200);
+}
+
+.default-btn {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s all;
+  border: 1px solid white;
+  color: white;
+  background-color: var(--base-color);
+  padding: 7px 12px 7px 12px;
+  margin-left: -3px;
+  box-shadow: 0 5px 5px rgb(78, 75, 75);
+}
+.default-btn:hover {
+  border: 1px solid var(--base-color);
+  color: var(--base-color);
+  background-color: white;
+}
+.default2-btn {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s all;
+  border: 1px solid var(--base-color);
+  color: var(--base-color);
+  background-color: white;
+  padding: 7px 12px 7px 12px;
+  margin-left: -3px;
+  box-shadow: 0 5px 5px rgb(78, 75, 75);
+  text-decoration: none;
+}
+.default2-btn:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: var(--base-color);
+}
+
+.second-color {
+  color: rgb(63, 143, 200);
+}
+
+.base-color {
+  color: rgb(28, 87, 129);
+}
+.del-button {
+  box-shadow: 0 5px 5px rgb(78, 75, 75);
+  padding: 7px 12px 7px 12px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

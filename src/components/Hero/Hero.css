@@ -1,0 +1,129 @@
+.container-hero {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 200ms;
+  padding-top: 80px;
+}
+.traingle-hero {
+  height: 700px;
+  width: 700px;
+  background-color: var(--second-color);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translateY(-50%) rotate(45deg);
+  border-radius: 3rem;
+  z-index: 0;
+}
+.text-hero {
+  position: relative;
+  z-index: 12 !important;
+  padding-left: 30px;
+}
+.img-hero {
+  position: relative;
+  z-index: 12 !important;
+}
+.img-hero img {
+  width: 100% !important;
+}
+.hero-imag-text {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.text-hero h1 {
+  font-weight: bold;
+  font-size: 70px;
+  font-style: italic;
+  color: var(--base-color);
+}
+.text-hero p {
+  font-weight: 400;
+}
+.shop-now {
+  border-radius: 25px !important;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+}
+.carsoul-itemm {
+  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  animation: fadeInUp 1.9s ease;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 100px) and (max-width: 575.98px) {
+  .container-hero {
+    height: fit-content;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 200ms;
+  }
+  .hero-imag-text {
+    flex-direction: column-reverse;
+  }
+  .text-hero {
+    position: relative;
+    z-index: 12 !important;
+    padding-left: 10px;
+    /* margin-top: 50px; */
+  }
+  .img-hero {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .carsoul-itemm {
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column-reverse !important;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-hero {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 200ms;
+  }
+  .hero-imag-text {
+    flex-direction: column-reverse;
+  }
+  .text-hero {
+    position: relative;
+    z-index: 12 !important;
+    padding-left: 10px;
+    /* margin-top: 50px; */
+  }
+  .img-hero {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .img-hero {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .carsoul-itemm {
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column-reverse !important;
+  }
+}
+

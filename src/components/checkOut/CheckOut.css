@@ -1,0 +1,190 @@
+.formCheck {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.label-checkout {
+  font-weight: bold;
+}
+#first-name,
+#last-name {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+#street-address,
+#billing-address,
+#phone-number,
+#province,
+#town-city,
+#postal-code {
+  width: 635px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 4px 0px;
+  border: 1px solid black;
+}
+.finishButton {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+  display: block;
+  margin-left: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+  .formCheck {
+    width: 90% !important;
+    height: 630px;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .iteams-with-checkout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .total-cost {
+    width: 90%;
+    position: static;
+    margin: 20px auto !important;
+  }
+  .names {
+    display: block !important;
+  }
+  #first-name,
+  #last-name {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  #street-address,
+  #billing-address,
+  #phone-number,
+  #province,
+  #town-city,
+  #postal-code {
+    width: 106%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .formCheck {
+    width: 90% !important;
+    height: 630px;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .iteams-with-checkout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .total-cost {
+    width: 90%;
+    position: static;
+    margin: 20px auto !important;
+  }
+  .names {
+    display: block !important;
+  }
+  #first-name,
+  #last-name {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  #street-address,
+  #billing-address,
+  #phone-number,
+  #province,
+  #town-city,
+  #postal-code {
+    width: 106%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #first-name,
+  #last-name {
+    width: 145px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  #street-address,
+  #billing-address,
+  #phone-number,
+  #province,
+  #town-city,
+  #postal-code {
+    width: 335px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 4px 0px;
+    border: 1px solid black;
+  }
+  .total-cost {
+    width: 90%;
+    position: static;
+    margin: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #first-name,
+  #last-name {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  #street-address,
+  #billing-address,
+  #phone-number,
+  #province,
+  #town-city,
+  #postal-code {
+    width: 335px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 4px 0px;
+    border: 1px solid black;
+  }
+  .total-cost {
+    width: 90%;
+    position: static;
+    margin: 20px !important;
+    margin-right: 20px !important;
+    border: 1px solid black;
+  }
+}
