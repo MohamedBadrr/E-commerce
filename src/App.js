@@ -19,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/E-commerce" element={<Hero />} />
         <Route path="/products" element={<Products />} />
         <Route path="/productdetails/:id/:cat" element={<ProductDetails />} />
         <Route path="/contact" element={<Contact />} />
